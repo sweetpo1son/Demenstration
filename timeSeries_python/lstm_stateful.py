@@ -1,3 +1,5 @@
+%stateful LSTM(Long Short Term Memory)
+
 from keras.layers.core import Dense, Dropout, Activation
 from keras.layers import LSTM
 
@@ -15,7 +17,7 @@ look_back=120
 tr_size=0.1
 ep=50
 
-df=pd.read_excel('/kaggle/input/oilprice1/5.xlsx')
+df=pd.read_excel('test_data.xlsx')
 df1=df.copy()
 
 
