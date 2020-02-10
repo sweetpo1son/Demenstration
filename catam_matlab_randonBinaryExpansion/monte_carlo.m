@@ -1,3 +1,4 @@
+%Monte Carlo Method to estimate distribution function
 function [] = monte_carlo(p,n,N)
     %step=10^-6;
     step=2^-11;
