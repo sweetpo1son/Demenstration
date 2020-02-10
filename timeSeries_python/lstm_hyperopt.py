@@ -1,3 +1,5 @@
+%hyper-parameters optmisation for LSTM model
+
 from keras.layers.core import Dense, Dropout, Activation
 from keras.layers import LSTM
 
@@ -14,7 +16,7 @@ look_back=60
 tr_size=0.86
 
 
-df=pd.read_excel('/kaggle/input/oilprice1/5.xlsx')
+df=pd.read_excel('test_data.xlsx')
 df1=df.copy()
 
 
