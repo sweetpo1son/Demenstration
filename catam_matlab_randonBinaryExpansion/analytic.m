@@ -1,3 +1,5 @@
+%numerical solution
+
 function [] = analytic(p,n)
     list_F=zeros(1,(2^n)+1);
     list_x=(0:2^(-n):1);
